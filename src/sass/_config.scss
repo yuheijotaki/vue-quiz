@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+// ===================================
+// color
+// ===================================
+$black_01: #222;
+$black_02: #444;
+$gray_01: #d8d8d8;
+$gray_02: #aaa;
+$white_01: #fff;
+$white_02: #fafafa;
+$red_01: #ff5353;
+$blue_01: #42a1ff;
+$lightYellow_01: #ffffec;
+$lightYellow_02: #f5f3a1;
+
+// ===================================
+// Break Points
+// ===================================
+$pcPoint: 1040px; // コンテンツ幅:1000px + padding:20px * 2
+$tabletPoint: 768px;
+$spPoint: 480px;
+
+$breakpoints: (
+  'pc': 'screen and (max-width: #{$pcPoint})',
+  'tb': 'screen and (max-width: #{$tabletPoint})',
+  'sp': 'screen and (max-width: #{$spPoint})'
+) !default;
+
+// ===================================
+// animation
+// ===================================
+// easing
+$easeInSine: cubic-bezier(0.47, 0, 0.745, 0.715);
+$easeOutSine: cubic-bezier(0.39, 0.575, 0.565, 1);
+$easeInOutSine: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$easeInQuad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+$easeOutQuad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+$easeInOutQuad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+$easeInExpo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+$easeOutExpo: cubic-bezier(0.19, 1, 0.22, 1);
+$easeInOutExpo: cubic-bezier(1, 0, 0, 1);
+
+// animation
+$anime_01: all .1s $easeInOutSine;
+$anime_02: all .2s $easeInOutSine;
+$anime_03: all .3s $easeInOutSine;
