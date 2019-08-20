@@ -15,4 +15,3 @@ yarn-error.log*
 
 # customize ignore files
 .code-workspace
-/static/
