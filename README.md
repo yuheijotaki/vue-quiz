@@ -47,7 +47,7 @@ https://github.com/yuheijotaki/vue-quiz/blob/master/static/assets/qa.json
 
 Format:
 
-```json
+```
 [
   {
     "id": 1,                // [Number] question ID
