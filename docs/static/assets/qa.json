@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "queText": "Why is AWS more economical than traditional data centers for applications with varying compute workloads?",
+    "ansType": "single",
+    "ansCorrect": ["C"],
+    "ansChoice": {
+      "A": "Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis.",
+      "B": "Customers retain full administrative access to their Amazon EC2 instances.",
+      "C": "Amazon EC2 instances can be launched on-demand when needed.",
+      "D": "Customers can permanently run enough instances to handle peak workloads."
+    },
+    "ansCommentary": "The ability to launch instances on-demand when needed allows customers launch and terminate instances in response to a varying workload. This is a more economical practice than purchasing enough on-premises servers to handle the peak load."
+  },
+  {
+    "id": 2,
+    "queText": "Which AWS service would simplify migration of a database to AWS?",
+    "ansType": "single",
+    "ansCorrect": ["B"],
+    "ansChoice": {
+      "A": "AWS Storage Gateway",
+      "B": "AWS Database Migration Service (AWS DMS)",
+      "C": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "D": "Amazon AppStream 2.0"
+    },
+    "ansCommentary": "<a href='https://aws.amazon.com/dms/' target='_blank'>https://aws.amazon.com/dms/</a>"
+  },
+  {
+    "id": 3,
+    "queText": "Which AWS offering enables customers to find, buy, and immediately start using software solutions in their AWS environment?",
+    "ansType": "single",
+    "ansCorrect": ["C"],
+    "ansChoice": {
+      "A": "AWS Config",
+      "B": "AWS OpsWorks",
+      "C": "AWS SDK",
+      "D": "AWS Marketplace"
+    },
+    "ansCommentary": "<a href='https://aws.amazon.com/mp/' target='_blank'>https://aws.amazon.com/mp/</a>"
+  }
+]
