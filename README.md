@@ -70,3 +70,26 @@ Format:
 ]
 ```
 
+
+
+## ファイル構成
+
+```
+├── /src/
+    ├── App.vue
+    ├── /components/
+    │   ├── Lead.vue
+    │   ├── Question.vue
+    │   ├── Answer.vue
+    │   ├── Check.vue
+    │   └── Score.vue
+    └── /static/
+        └── /assets/
+            └── qa.json
+```
+
+### コンポーネント構成
+
+
+
+![components](/Users/jotaki/private/git/vue-quiz/sketch/components.png)
