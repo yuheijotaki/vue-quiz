@@ -92,4 +92,4 @@ Format:
 
 
 
-![components](/Users/jotaki/private/git/vue-quiz/sketch/components.png)
+![components](https://raw.githubusercontent.com/yuheijotaki/vue-quiz/master/sketch/components.png)
